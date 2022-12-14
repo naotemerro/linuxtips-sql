@@ -52,3 +52,7 @@ WHERE descSituacao IN ('shipped','canceled')
 AND year(dtPedido) = '2018'
 AND DATEDIFF(dtEstimativaEntrega, dtAprovado) > 30
 
+
+-- COMMAND ----------
+
+SELECT 'Olá Mundo!'

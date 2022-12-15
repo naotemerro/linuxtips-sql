@@ -40,7 +40,7 @@ AND vlAlturaCm > 5
 
 -- COMMAND ----------
 
--- DBTITLE 1,Exercício Lista 01
+-- DBTITLE 1,Exercício Lista - 01
 -- lista de pedido com mais de um (01) item 
 SELECT *
 
@@ -48,5 +48,8 @@ FROM silver_olist.item_pedido
 WHERE idPedidoItem > 2
 
 -- COMMAND ----------
+
+-- DBTITLE 1,Exercício Lista - 02
+-- Lista de pedidos que o frete é mais caro que o item
 
 

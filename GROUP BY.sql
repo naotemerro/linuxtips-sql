@@ -1,4 +1,8 @@
 -- Databricks notebook source
+
+
+-- COMMAND ----------
+
 SELECT
 descUF,
 COUNT(*)
@@ -6,6 +10,10 @@ COUNT(*)
 FROM silver_olist.cliente
 
 GROUP BY descUF
+
+-- COMMAND ----------
+
+
 
 -- COMMAND ----------
 

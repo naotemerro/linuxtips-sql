@@ -56,3 +56,7 @@ AND DATEDIFF(dtEstimativaEntrega, dtAprovado) > 30
 -- COMMAND ----------
 
 SELECT 'Olá Mundo!'
+
+-- COMMAND ----------
+
+
